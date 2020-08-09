@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 30px;
+    border-bottom: 2pt solid rgba(177, 170, 174, 0.85);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../img/pattern.jpg);
+}
+
+header {
+  z-index: 0;
+  top: 0;
+  background-color: white;
+  position: sticky;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+card.li {
+  text-align: center;
+  display: inline;
+}
+
+header.li{
+  display: inline;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+footer {
+	background-color: black;
+  	font-weight: bold;
+  	color: white;
+  	text-align: center;
+  	padding: 10px;
+  	font-size: 20pt;
+    margin-top: 20px;
+}
+
+#logo {
+ 	position: sticky;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 60px;
+}
+
+.content {
+  border: 0.5pt solid rgba(120, 112, 94, 0.76);
+  margin: 5px, 0px, 3px, 2px;
+}
+
+table {
+  text-align: left;
+}
+
+ul{
+  display: inline;
+  list-style-type: none;
+}
+
+label{
+  float: left;
+}
+
+input{
+  float: right;
+}
